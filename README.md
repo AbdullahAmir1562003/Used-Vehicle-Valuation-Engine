@@ -52,9 +52,22 @@ Click the badge below to run the interactive notebook with pre-installed GPU/CPU
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AbdullahAmir1562003/Used-Vehicle-Valuation-Engine/blob/main/Used_Vehicle_Valuation_Engine.ipynb)
 
-#### Option 2: Run Locally
+ #### Option 2: Run Locally
+ 
+ 1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/AbdullahAmir1562003/Used-Vehicle-Valuation-Engine.git
+    cd Used-Vehicle-Valuation-Engine
 
-1. **Clone the repository:**
+ 2. **Set up a virtual environment (Optional):**
+    ```bash
+   python -m venv venv
+   # Windows:
+  venv\Scripts\activate
+   # macOS/Linux:
+    source venv/bin/activate
+  
+    3. **Install dependencies & run:**
    ```bash
-   git clone [https://github.com/AbdullahAmir1562003/Used-Vehicle-Valuation-Engine.git](https://github.com/AbdullahAmir1562003/Used-Vehicle-Valuation-Engine.git)
-   cd Used-Vehicle-Valuation-Engine<img width="980" height="849" alt="image" src="https://github.com/user-attachments/assets/18804277-6e25-41d9-9f85-31a8eff574dc" />
+    pip install numpy pandas scikit-learn matplotlib seaborn jupyter
+    jupyter notebook Used_Vehicle_Valuation_Engine.ipynb
