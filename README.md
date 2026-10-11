@@ -45,29 +45,30 @@ Valuing pre-owned vehicles is complex due to non-linear depreciation factors, od
 
 ---
 
-### 🚀 Getting Started
-
-#### Option 1: Run Instantly on Google Colab (Recommended)
-Click the badge below to run the interactive notebook with pre-installed GPU/CPU acceleration:
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AbdullahAmir1562003/Used-Vehicle-Valuation-Engine/blob/main/Used_Vehicle_Valuation_Engine.ipynb)
-
+ ### 🚀 Getting Started
+ 
+ #### Option 1: Run Instantly on Google Colab (Recommended)
+ Click the badge below to run the interactive notebook with pre-installed GPU/CPU acceleration:
+ 
+ [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AbdullahAmir1562003/Used-Vehicle-Valuation-Engine/blob/main/Used_Vehicle_Valuation_Engine.ipynb)
+ 
  #### Option 2: Run Locally
  
  1. **Clone the repository:**
     ```bash
-    git clone https://github.com/AbdullahAmir1562003/Used-Vehicle-Valuation-Engine.git
+    git clone [https://github.com/AbdullahAmir1562003/Used-Vehicle-Valuation-Engine.git](https://github.com/AbdullahAmir1562003/Used-Vehicle-Valuation-Engine.git)
     cd Used-Vehicle-Valuation-Engine
-
+    ```
+ 
  2. **Set up a virtual environment (Optional):**
     ```bash
-   python -m venv venv
-   # Windows:
-  venv\Scripts\activate
-   # macOS/Linux:
-    source venv/bin/activate
-  
-    3. **Install dependencies & run:**
-   ```bash
+    python -m venv venv
+    ```
+    - On Windows: `venv\Scripts\activate`
+    - On macOS/Linux: `source venv/bin/activate`
+ 
+ 3. **Install dependencies & run:**
+    ```bash
     pip install numpy pandas scikit-learn matplotlib seaborn jupyter
     jupyter notebook Used_Vehicle_Valuation_Engine.ipynb
+   ```
